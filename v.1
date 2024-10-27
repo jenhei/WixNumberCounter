@@ -1,0 +1,197 @@
+// Velo API Reference: https://www.wix.com/velo/reference/api-overview/introduction
+
+$w.onReady(function () {
+    // Define the counter element (e.g., a text box element with ID "#counterText")
+    let $counterElement = $w("#text91"); 
+
+    // Starting number of the counter
+    let startNumber = 0;
+    
+    // End number for the counter
+    let endNumber = 37; 
+    
+    // Duration of the counter (in milliseconds)
+    let duration = 1500; 
+    
+    // Calculate the increment interval
+    let incrementInterval = 10;
+    
+    // Calculate the total steps needed
+    let steps = duration / incrementInterval;
+    
+    // Calculate the increment value per step
+    let incrementValue = (endNumber - startNumber) / steps;
+    
+    // Initialize the counter at the start value
+    let currentNumber = startNumber;
+    
+    // Function to update the counter
+    function updateCounter() {
+        // Increase the current number
+        currentNumber += incrementValue;
+        
+        // If the counter exceeds the end number, set it to the end number
+        if (currentNumber >= endNumber) {
+            currentNumber = endNumber;
+        }
+        
+        // Display the current number in the element (round to avoid decimals)
+        $counterElement.text = Math.floor(currentNumber).toString();
+        
+        // Stop when the counter reaches the end number
+        if (currentNumber < endNumber) {
+            // Continue updating the counter
+            setTimeout(updateCounter, incrementInterval);
+        }
+    }
+    
+    // Start the counter when the page is ready
+    updateCounter();
+});
+
+$w.onReady(function () {
+    // Define the counter element (e.g., a text box element with ID "#counterText")
+    let $counterElement = $w("#text92"); 
+
+    // Starting number of the counter
+    let startNumber = 0;
+    
+    // End number for the counter
+    let endNumber = 112; 
+    
+    // Duration of the counter (in milliseconds)
+    let duration = 1500; 
+    
+    // Calculate the increment interval
+    let incrementInterval = 10;
+    
+    // Calculate the total steps needed
+    let steps = duration / incrementInterval;
+    
+    // Calculate the increment value per step
+    let incrementValue = (endNumber - startNumber) / steps;
+    
+    // Initialize the counter at the start value
+    let currentNumber = startNumber;
+    
+    // Function to update the counter
+    function updateCounter() {
+        // Increase the current number
+        currentNumber += incrementValue;
+        
+        // If the counter exceeds the end number, set it to the end number
+        if (currentNumber >= endNumber) {
+            currentNumber = endNumber;
+        }
+        
+        // Display the current number in the element (round to avoid decimals)
+        $counterElement.text = Math.floor(currentNumber).toString();
+        
+        // Stop when the counter reaches the end number
+        if (currentNumber < endNumber) {
+            // Continue updating the counter
+            setTimeout(updateCounter, incrementInterval);
+        }
+    }
+    
+    // Start the counter when the page is ready
+    updateCounter();
+});
+$w.onReady(function () {
+    // Define the counter element (e.g., a text box element with ID "#counterText")
+    let $counterElement = $w("#text93"); 
+
+    // Starting number of the counter
+    let startNumber = 0;
+    
+    // End number for the counter
+    let endNumber = 50; 
+    
+    // Duration of the counter (in milliseconds)
+    let duration = 1500; 
+    
+    // Calculate the increment interval
+    let incrementInterval = 10;
+    
+    // Calculate the total steps needed
+    let steps = duration / incrementInterval;
+    
+    // Calculate the increment value per step
+    let incrementValue = (endNumber - startNumber) / steps;
+    
+    // Initialize the counter at the start value
+    let currentNumber = startNumber;
+    
+    // Function to update the counter
+    function updateCounter() {
+        // Increase the current number
+        currentNumber += incrementValue;
+        
+        // If the counter exceeds the end number, set it to the end number
+        if (currentNumber >= endNumber) {
+            currentNumber = endNumber;
+        }
+        
+        // Display the current number in the element (round to avoid decimals)
+        $counterElement.text = Math.floor(currentNumber).toString();
+        
+        // Stop when the counter reaches the end number
+        if (currentNumber < endNumber) {
+            // Continue updating the counter
+            setTimeout(updateCounter, incrementInterval);
+        }
+    }
+    
+    // Start the counter when the page is ready
+    updateCounter();
+});
+
+
+$w.onReady(function () {
+    // Define the counter element (e.g., a text box element with ID "#counterText")
+    let $counterElement = $w("#text94"); 
+
+    // Starting number of the counter
+    let startNumber = 0;
+    
+    // End number for the counter
+    let endNumber = 68; 
+    
+    // Duration of the counter (in milliseconds)
+    let duration = 1500; 
+    
+    // Calculate the increment interval
+    let incrementInterval = 10;
+    
+    // Calculate the total steps needed
+    let steps = duration / incrementInterval;
+    
+    // Calculate the increment value per step
+    let incrementValue = (endNumber - startNumber) / steps;
+    
+    // Initialize the counter at the start value
+    let currentNumber = startNumber;
+    
+    // Function to update the counter
+    function updateCounter() {
+        // Increase the current number
+        currentNumber += incrementValue;
+        
+        // If the counter exceeds the end number, set it to the end number
+        if (currentNumber >= endNumber) {
+            currentNumber = endNumber;
+        }
+        
+        // Display the current number in the element (round to avoid decimals)
+        $counterElement.text = Math.floor(currentNumber).toString();
+        
+        // Stop when the counter reaches the end number
+        if (currentNumber < endNumber) {
+            // Continue updating the counter
+            setTimeout(updateCounter, incrementInterval);
+        }
+    }
+    
+    // Start the counter when the page is ready
+    updateCounter();
+});
